@@ -17,7 +17,9 @@ class Todo extends Component {
 }
 
 Todo.propTypes = {
-    todos: PropTypes.array.isRequired
+    todos: PropTypes.array.isRequired,
+    completion: PropTypes.func.isRequired,
+    delete: PropTypes.func.isRequired
 }
 
 export default Todo;
